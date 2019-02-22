@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'angular-items', to: 'portfolios#angular'
   root to: 'pages#home'
 
   resources :portfolios, except: [:show]
