@@ -17,4 +17,7 @@ module ApplicationHelper
     end 
   end 
 
+  def copyright_generator
+    AugustineViewTool::Renderer.copyright 'Cameron Augustine', 'All rights reserved'
+  end 
 end
