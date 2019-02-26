@@ -140,10 +140,10 @@ body {
    color: grey;
  }
 
- input, select, textarea{
-  color: #ff0000;
-}
 
-textarea:focus, input:focus {
-  color: #ff0000;
+.login > .card {
+  width: 27rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
