@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import "font-awesome";
 
 /* stylelint-disable selector-list-comma-newline-after */
 body {
@@ -142,4 +143,8 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     max-width: 960px;
   }
+}
+
+.social-links li{
+  font-size: 2em;
 }
